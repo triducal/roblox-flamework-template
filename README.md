@@ -5,5 +5,6 @@ Packages Used:
 - Vide ( UI Library )
 - Lapis ( Data Management )
 - Mechanism ( Input Controller )
-- t ( Typechecking )
+- T ( Typechecking )
+- Abbreviate ( Number Utility )
 
