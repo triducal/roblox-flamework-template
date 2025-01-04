@@ -31,6 +31,7 @@
     "@rbxts/abbreviate": "^3.0.4",
     "@rbxts/charm": "^0.8.1",
     "@rbxts/charm-sync": "^0.1.1",
+    "@rbxts/cmdr": "^1.12.1",
     "@rbxts/lapis": "^0.3.6",
     "@rbxts/lapis-mockdatastore": "^0.3.7",
     "@rbxts/mechanism": "^1.1.0",

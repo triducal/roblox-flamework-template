@@ -30,7 +30,7 @@ export class LeaderstatService implements OnStart {
 			};
 
 			const unsubscribe = subscribe(getMoney, (value) => {
-				money.Value = abbreviator.numberToString(value);
+				money.Value = abbreviator.numberToString(math.floor(value));
 			});
 
 			return unsubscribe;

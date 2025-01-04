@@ -25,10 +25,10 @@ export class PlayerDataService implements OnPlayerAdded, OnPlayerRemoving {
 			setPlayerData(player.Name, defaultData);
 		});
 
-		RunService.Heartbeat.Connect(() => {
+		RunService.Heartbeat.Connect((dt) => {
 			updatePlayerData(player.Name, (data) => ({
 				...data,
-				money: data.money + 1,
+				money: data.money + dt,
 			}));
 		});
 	}
